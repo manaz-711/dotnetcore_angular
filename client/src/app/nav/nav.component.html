@@ -16,9 +16,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Messages</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" (click)="logout()" href="#">Logout</a>
-        </li>
       </ul>
       <div class="dropdown d-align" *ngIf="accountService.currentUser$ | async" dropdown>
         <a class="dropdown-toggle text-light" dropdownToggle>Welcome user</a>
