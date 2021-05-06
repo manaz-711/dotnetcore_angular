@@ -1,0 +1,23 @@
+.d-flex{
+  align-items: right;
+  margin-left: 40%;
+}
+.container{
+  padding-right: 0px;
+    padding-left: 0px;
+}
+.d-align{
+  margin-left: auto;
+}
+.f-align{
+  margin-left: auto;
+}
+.pass-align{
+  margin-left: 5px;
+}
+.btn-align{
+  margin-left: 5px;
+}
+.dropdown-toggle, .dropdown-item{
+  cursor: pointer;
+}
