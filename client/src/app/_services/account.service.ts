@@ -25,6 +25,18 @@ export class AccountService {
       })
     );
   }
+
+  // tslint:disable-next-line: typedef
+  register(model: any){
+    return this.http.post(this.baseUrl + 'account/register', model).pipe(
+      map((user: User) => {
+          if (user){
+            localStorage.setItem('user', JSON.stringify(user));
+            this.CurrentUserSource.next(user);
+          }
+      })
+    );
+  }
   // tslint:disable-next-line: typedef
   setCurrentUser(user: User){
     this.CurrentUserSource.next(user);
