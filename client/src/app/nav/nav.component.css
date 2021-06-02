@@ -8,9 +8,13 @@
 }
 .d-align{
   margin-left: auto;
+  margin-left: 89%;
+  margin-top: -3.28%;
 }
 .f-align{
-  margin-left: auto;
+  margin-left: 63%;
+  margin-top: -3.4%;
+  margin-right: -7%;
 }
 .pass-align{
   margin-left: 5px;
@@ -21,3 +25,8 @@
 .dropdown-toggle, .dropdown-item{
   cursor: pointer;
 }
+#ul-align{
+  margin-left: 10%;
+  margin-top: -3.3%;
+}
+
