@@ -28,9 +28,6 @@ login(){
     {
       this.router.navigateByUrl('/members');
 
-    },error=>{
-      console.log(error);
-      this.toaster.error(error.error);
     })
 }
 logout(){
